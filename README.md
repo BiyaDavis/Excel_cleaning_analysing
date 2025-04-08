@@ -1,7 +1,9 @@
 # Excel_cleaning_analysing
 Importing some data from a department which relates to inventory information about their fleet of vehicles. The data is in comma-separated value (CSV) format and the data also needs cleaning up before doing any kind of analysis.
+Link used -
+- <a herf="https://data.montgomerycountymd.gov/Government/Fleet-Equipment-Inventory/93vc-wpdr"> under a Public Domain license.
 
-#Tasks Performed for Cleaning the Data
+# Tasks Performed for Cleaning the Data
 Save the CSV file as an XLSX file
 Column widths: Sort out the widths of all columns so that the data is clearly visible in all cells.
 Empty rows: Used the Filter feature to look for blanks and removed all empty rows from the data.
@@ -10,7 +12,7 @@ Spelling: The original source file data has not been checked for errors in the s
 Whitespace: Used the Find and Replace feature to remove all double-spaces from the data.
 Department names: When the data was converted from its data source, the department names didn’t import correctly and they are now split over two columns in the data. Use Flash Fill to reduce the department names to just one column, and then removed any unnecessary columns.
 
-#Tasks Performed for Analysing the Data
+# Tasks Performed for Analysing the Data
 Format the data as a table: Used the Format as Table option to format the data as a table.
 Use AutoSum to calculate values: Used AutoSum to find the following values for column ‘C’ and record each of the values:
 SUM, AVERAGE, MIN, MAX, COUNT
